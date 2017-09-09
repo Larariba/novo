@@ -162,6 +162,38 @@ header h1{
     padding: 20px;
 }
 
+fieldset{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    position: relative;
+       
+}
+legend{
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+#form label.lb1{
+    margin-left: -230px;
+    
+}
+#form label.lb2{
+    margin-left: -235px;
+}
+#form label.lb3{
+    margin-left: -195px
+}
+
+fieldset br{
+    line-height: 2;
+}
+
+
+
+
+
 
 /*FOOTER*/
 
