@@ -6,7 +6,9 @@
         <title>Projeto - Lucas Arariba</title>
         <link href="css/estilos.css" rel="stylesheet"/>
         <link href="css/normalize.css" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pacifico|Roboto+Slab:400,700" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pacifico|Roboto+Slab:400,700" rel="stylesheet">
+
+    
   </head>
 
   <body>
@@ -26,14 +28,12 @@
         <h1>LOREM IPSUM</h1>
         <p>Texto para preencher mesmo nada de mais, depois eu troco isso aqui mais pra frente ok </p>
         <a href="#sobre" class="botao">VER MAIS</a> 
-    </header>
-    
+    </header>  
     <section id="sobre">
         <h2>SOBRE</h2>
         <p>Texto para preencher mesmo nada de mais, depois eu troco isso aqui mais pra frente ok </p>
         <a href="#contato" class="botao">ENTRE EM CONTATO CONOSCO</a>   
     </section> 
-    
     <section id="servicos">
         <h2>SERVIÇOS</h2>
         <div>
@@ -81,8 +81,17 @@
      <div>
         <img src="img/contato.png" alt="email"/>
          <p><a href="maito:email@contato.com">email@contato.com</a></p>
-     </div>    
-      
+     </div>  
+     <fieldset id="field">
+     <legend>Fale conosco</legend>
+    <form id="form" method="get" action="prog.php">
+       <label class="lb1" for="idnome">Nome : </label><input id="idnome" name="nome" type="text" /></br>
+         <label class="lb2" for="idemail">Email : </label><input type="email" id="idemail" name="email" /></br>
+        <label class="lb3" for="idmsg">Mensagem : </label><input type="text" id="idmsg" name="msg" cols="35" rows="8"/></br>
+       <input type="submit" value="Enviar"/>
+        
+    </form>     
+    </fieldset> 
     </section> 
       
     <footer>
